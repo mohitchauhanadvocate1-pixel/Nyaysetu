@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nyay Setu — Legal Services</title>
+  <meta name="description" content="Nyay Setu is a legal services firm co-founded by Adv. Mohit Singh Chauhan. Criminal, Civil, Family, and Documentation services with integrity and expertise." />
+  <style>
+    :root{
+      --primary:#0a3d62;
+      --primary-dark:#082a45;
+      --bg:#f5f7fb;
+      --text:#1f2937;
+      --muted:#6b7280;
+      --card:#ffffff;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial,'Noto Sans',sans-serif;background:var(--bg);color:var(--text);}
+    a{color:var(--primary);text-decoration:none}
+    header{
+      background:linear-gradient(135deg,var(--primary),var(--primary-dark));
+      color:#fff;
+      padding:3rem 1rem 4rem;
+      text-align:center;
+      position:relative;
+      overflow:hidden;
+    }
+    header h1{margin:0;font-size:2.4rem;letter-spacing:.5px}
+    header p{margin:.5rem 0 0;font-size:1.05rem;opacity:.95}
+    nav{
+      position:sticky;top:0;z-index:20;background:#fff;
+      border-bottom:1px solid #e5e7eb;
+      display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap;
+    }
+    nav a{display:inline-block;padding:.9rem 1rem;font-weight:600;color:var(--primary-dark)}
+    nav a:hover{background:#f1f5f9;border-radius:10px}
+    main{max-width:1100px;margin:-2rem auto 3rem;padding:0 1rem}
+    section{margin:2rem 0}
+    h2{
+      color:var(--primary-dark);
+      text-align:center;margin:0 0 1rem;
+      font-size:1.8rem;
+    }
+    .lead{text-align:center;color:#eef2ff;max-width:780px;margin:.5rem auto 0;opacity:.95}
+    .grid{
+      display:grid;gap:1.2rem;
+      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    }
+    .card{
+      background:var(--card);border:1px solid #e5e7eb;border-radius:14px;
+      padding:1.25rem;box-shadow:0 8px 20px rgba(2,6,23,.05);
+    }
+    .card h3{margin-top:0;color:var(--primary-dark);font-size:1.1rem}
+    .about p{line-height:1.7;color:var(--text)}
+    .badges{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.5rem}
+    .badge{font-size:.85rem;background:#eef2ff;color:#1e3a8a;padding:.35rem .6rem;border-radius:999px;border:1px solid #c7d2fe}
+    .cta{
+      text-align:center;margin:2rem 0 0;
+    }
+    .cta a.button{
+      display:inline-block;background:#fff;color:var(--primary-dark);border:2px solid #fff;
+      padding:.8rem 1.1rem;border-radius:12px;font-weight:700;
+      box-shadow:0 8px 18px rgba(0,0,0,.15);
+    }
+    .cta a.button:hover{transform:translateY(-1px)}
+    .contact .split{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));}
+    .contact .info p{margin:.3rem 0;color:var(--text)}
+    .contact .info a{word-break:break-word}
+    form input, form textarea, form button{
+      width:100%;padding:.85rem;border:1px solid #d1d5db;border-radius:10px;
+      font:inherit;
+    }
+    form textarea{min-height:120px;resize:vertical}
+    form button{
+      background:var(--primary);color:#fff;border:none;font-weight:700;cursor:pointer;
+    }
+    form button:hover{background:var(--primary-dark)}
+    footer{
+      text-align:center;color:#94a3b8;padding:2rem 1rem;border-top:1px solid #e5e7eb;background:#fff;
+    }
+    .tiny{font-size:.92rem;color:var(--muted)}
+    /* Mobile tweaks */
+    @media (max-width:480px){
+      header h1{font-size:2rem}
+      .lead{padding:0 .5rem}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nyay Setu</h1>
+    <p>Co‑Founder: <strong>Adv. Mohit Singh Chauhan</strong></p>
+    <p class="lead">Trusted Legal Solutions with Integrity &amp; Expertise</p>
+    <div class="cta" style="margin-top:1.25rem">
+      <a class="button" href="https://wa.me/917048981323" target="_blank" rel="noopener">Chat on WhatsApp</a>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#whyus">Why Choose Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about" class="about card">
+      <h2>About Us</h2>
+      <p><strong>Nyay Setu</strong> is a professional legal services platform co‑founded by <strong>Adv. Mohit Singh Chauhan</strong>. Our mission is to provide accessible, reliable and transparent legal solutions to individuals and businesses. We handle matters across <em>Civil</em>, <em>Criminal</em>, and <em>Family</em> law, along with professional documentation and drafting services.</p>
+      <div class="badges">
+        <span class="badge">District Court Practice</span>
+        <span class="badge">Transparent Fees</span>
+        <span class="badge">Quick Consultation</span>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Criminal Law</h3>
+          <p>Bail &amp; Anticipatory Bail, NBW cancellation, Criminal Complaints &amp; Trials.</p>
+        </div>
+        <div class="card">
+          <h3>Civil Law</h3>
+          <p>Property disputes, Injunctions, Recovery Suits, Contract enforcement.</p>
+        </div>
+        <div class="card">
+          <h3>Family Law</h3>
+          <p>Divorce, Maintenance, Child Custody, Domestic Violence matters.</p>
+        </div>
+        <div class="card">
+          <h3>Documentation</h3>
+          <p>Agreements, Legal Notices, Drafting &amp; Vetting of Contracts, Affidavits.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="whyus" class="card">
+      <h2>Why Choose Us</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Client‑First Approach</h3>
+          <p>Clear communication, practical strategy, and time‑bound updates.</p>
+        </div>
+        <div class="card">
+          <h3>Transparent Fees</h3>
+          <p>No hidden charges — written fee quotations and milestones.</p>
+        </div>
+        <div class="card">
+          <h3>Professional Drafting</h3>
+          <p>Well‑structured petitions, notices and agreements that stand scrutiny.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <div class="split">
+        <div class="card info">
+          <h3>Reach Us</h3>
+          <p><strong>Phone:</strong> <a href="tel:+917048981323">+91 7048981323</a></p>
+          <p><strong>Email:</strong> <a href="mailto:mohitchauhanadvocate1@gmail.com">mohitchauhanadvocate1@gmail.com</a></p>
+          <p><strong>WhatsApp:</strong> <a href="https://wa.me/917048981323" target="_blank" rel="noopener">Start chat</a></p>
+          <p><strong>Office:</strong> District Court Complex</p>
+          <p class="tiny">Office hours: Mon–Sat, 9:00 AM – 7:00 PM</p>
+        </div>
+        <div class="card">
+          <h3>Send a Message</h3>
+          <!-- Simple mailto form: opens user's email app with pre‑filled fields -->
+          <form action="mailto:mohitchauhanadvocate1@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="Name" placeholder="Your Name" required />
+            <input type="email" name="Email" placeholder="Your Email" required />
+            <textarea name="Message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+            <p class="tiny">This uses your email app to send a message. For advanced forms (database/CRM), connect Netlify Forms or Google Forms.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Nyay Setu. All rights reserved.</p>
+  </footer>
+</body>
+</html>
